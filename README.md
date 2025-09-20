@@ -24,54 +24,42 @@ Rating & Review System: A feedback mechanism to ensure quality control.
 Real-time Tracking: The ability to monitor the status of a service request.
 
 🔧⚙️ Technologies Used
+
 Backend: Flask, SQLAlchemy, Redis, Celery
 
 Frontend: HTML, CSS, Bootstrap, VueJS
 
 Database: SQLite
 
-Libraries: JWT for security, Flasgger for API documentation, ChartJS for data visualization
 
 🛠️ Installation
+
 Clone the repository:
 
-git clone [https://github.com/Priyanka-Narula/Homebuddy.git](https://github.com/Priyanka-Narula/Homebuddy.git)
+git clone https://github.com/Priyanka-Narula/Homebuddy.git
 cd Homebuddy
-
 
 Create a virtual environment:
 
 python -m venv env
 source env/bin/activate
 
-
 Install the required packages:
 
 pip install -r requirements.txt
 
 
-Install Redis:
-Follow the installation instructions on the official Redis website.
+Start the application:
 
-[https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/)
+python app.py
 
+🚀 Usage
 
-Run Redis:
+Visit the homepage of the Home Buddy application in your browser.
 
-sudo service redis-server start
+Create a user account or log in if you already have one.
 
+Browse the list of available services, find a professional, and manage your bookings.
 
-Run the application:
-
-flask run
-
-
-Run Celery worker in another window:
-
-celery -A app.celery worker --loglevel=info
-
-
-Run Celery beat in another window:
-
-celery -A app.celery beat --loglevel=info
+As a service provider, you can manage your listed services and handle service requests.
 
