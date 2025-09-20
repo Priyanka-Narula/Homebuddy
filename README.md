@@ -1,4 +1,5 @@
-##Home Buddy
+Home Buddy
+
 🔍 Home Buddy: Household Services Application
 
 🧠 Project Goal
